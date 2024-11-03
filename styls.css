@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+ 
+ 
+
+  .o{
+    color: #eeaeae;
+  }
+  .menu{
+    color: black;
+    font-size: large;
+    text-align: center;
+  }
+  .menu{
+    background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)),url('p10.jpeg') center center fixed no-repeat;
+
+    font-family: 'Merriweather';
+    height:1200px;
+    background-size: cover;
+    font-size: larger;
+
+}
+  .home {
+    max-width: 1300px;
+    margin: auto;
+    width: 100%;
+    min-height: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background: url(p10.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    padding: 20px; 
+    flex-direction: column; 
+    text-align: center; 
+  }
+  .home h1 {
+    font-size: 32px; /* Style de la taille de la police pour le titre */
+    color: #ffffff; /* Couleur du texte pour le titre */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajout d'une ombre au texte */
+    margin-bottom: 20px; /* Espacement entre le titre et le paragraphe */
+  }
+  .home p {
+    font-size: 18px; /* Style de la taille de la police pour le paragraphe */
+    color: #ffffff; /* Couleur du texte pour le paragraphe */
+    margin-bottom: 20px; /* Espacement entre le paragraphe et le bouton */
+  }
+  /* Style pour le bouton */
+  .home .btn {
+    background-color: rgba(116, 24, 24, 0.973);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none; /* Suppression du soulignement du lien par défaut */
+    border: none;
+    cursor: pointer;
+  }
+  /* Style pour le lien dans le bouton */
+  .home .btn a {
+    color: #ffffff;
+    text-decoration: none; /* Suppression du soulignement du lien par défaut */
+  
+  }
+  /* Style au survol du bouton */
+  .home .btn:hover {
+    background-color: rgba(134, 28, 28, 0.973);  
+    transition: 0.5s;
+  }
+.c-menu{
+    font-family:'satisfy';
+    box-shadow: 3px 3px 3px white;
+    z-index: 99;
+    
+}
+.c-menu .nav-link{
+    border: 1px solid ;
+    transition: padding-bottom 0.9s ease-in-out, border-color 0.3 ease;
+    color: brown;
+}
+.c-menu .nav-link:hover{
+    padding-bottom: 10px;
+    border-bottom-color:rgb(204, 101, 164) ;
+}
+.s-header{
+   background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)),url('photos/p2.jpg') center center fixed no-repeat;
+   background-size: cover;
+   height: 800px;
+
+}
+
+.btn-order{
+    color:rgb(89, 151, 131);
+    border-color:rgb(89, 151, 131);
+    transition: 0.5s;
+    font-family:'satisfy';
+    
+}
+.btn-order:hover,
+.btn-order:active{
+    color: white;
+    background-color: rgb(89, 151, 131);
+}
+
+.image-droite {
+  float: right;
+  margin: 10px 0 10px 400px; /* Cela ajuste la marge autour de l'image pour l'espacement */
+}
+
+.order-form {
+background-size: cover;
+height: 800px;
+background-color: rgb(128, 101, 117);
+}
+
+.order-form {
+height: 500px;
+}
+
+.banner .banner-desc h1 {
+font-size: 48px;
+font-weight: 400;
+color: #fff;
+}
+
+
+
+.footer{
+background-color: #fdf9f9;
+color: white;
+border-top:2px solid var(#007bff);
+}
+.footer-container{
+display: flex;
+justify-content: space-between;
+gap: 1rem;
+background-color: #ffffff;
+}
+.footer-container .logo{
+color:var(#adaaaa);
+margin-bottom: 1rem;
+}
+.footer-container .footer-box{
+display:flex;
+flex-direction: column;
+}
+.social{
+display: flex;
+margin-right: 1rem;
+}
+.social a:hover{
+color: var(#69a2df);
+}
+.footer-box h3{
+font-size: 400;
+font-weight: 400;
+margin-bottom: 1rem;
+}
+.footer-box a{
+color: rgb(2, 2, 2);
+margin-bottom:10px;
+}
+.footer-box a:hover{
+color: var(#0056b3);
+}
+.copyright{
+padding: 20px;
+text-align: center;
+background-color: #ffffff;
+}
